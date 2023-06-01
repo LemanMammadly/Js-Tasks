@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Login 2</title>
+  </head>
+  <body>
+    <div class="alllogin">
+      <div class="container">
+        <div class="login">
+          <h1>Sign In</h1>
+          <form action="">
+            <label class="emaillabel" for="email">Email</label>
+            <input
+              class="email"
+              type="email"
+              id="email"
+              placeholder="laman@gmail.com"
+            />
+            <label class="passlabel" for="password"
+              >Password
+              <input type="password" id="pass" placeholder="******" />
+            </label>
+            <div class="bottom">
+              <input
+                type="checkbox"
+                id="check"
+                style="width: 10px; height: 10px"
+              />
+              <label for="check">Remember me</label>
+              <a href="">Forgot</a>
+            </div>
+            <button onclick="checkLogin()" type="button" class="sign">Log In</button>
+            <div class="social">
+              <button class="fb">Facebook</button>
+              <button class="tw">Twitter</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
